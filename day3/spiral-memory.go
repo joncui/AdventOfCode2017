@@ -2,15 +2,8 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"math"
 )
-
-func check(e error) {
-	if e != nil {
-		log.Fatal(e)
-	}
-}
 
 func main() {
 	input := 347991
